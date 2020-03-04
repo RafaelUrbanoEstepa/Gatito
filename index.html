@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/
+xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Rafael Urbano Estepa" />
+    <link rel="stylesheet" href="./css/estiloGato.css">
+    <title>Lindo Gatito de Rafael Urbano Estepa</title>
+    <script src="./scripts/gato.js"></script>
+    <script src="./scripts/main.js"></script>
+</head>
+
+<body>
+    <h1>Rafael Urbano Estepa</h1>
+    <noscript>Necesita activar JavaScript</noscript>
+    <h3>Rellene el formulario con los datos del gatito.</h3>
+    <form action="" name="formularioGatete" method="post">
+        <label for="nombre">Nombre del gatito: <input type="text" name="nombre" id="nombre" required></label>
+        <label for="nombre">Raza del gatito: <select name="raza" id="raza">
+            <option value="Mao Egipcio">Mao Egipcio</option>
+            <option value="Persa">Persa</option>
+            <option value="Siamés">Siamés</option>
+            <option value="Esfinge">Esfinge</option>
+            <option value="Siberiano">Siberiano</option>
+        </select></label>
+        <label for="nombre">Peso del gatito(entre 1 y 5 kg): <input type="number" step="0.01" min="1" max="5" name="peso" id="peso" value="2"></label>
+        <label for="nombre">Edad del gatito: <input type="date" min="2000-01-01" max="2999-01-01" name="fechaNacimiento" id="fechaNacimiento" required></label>
+        <div>
+            <input type="reset" value="Vaciar">
+            <input type="submit" value="Adoptar Gatito" id="crear">
+        </div>
+    </form>
+</body>
+
+</html>

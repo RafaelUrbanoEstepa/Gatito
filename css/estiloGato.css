@@ -1,0 +1,41 @@
+form {
+    width: 30%;
+    padding: 2rem;
+    border: 2px solid green;
+    background-color: lightgreen;
+    margin: auto;
+    display: grid;
+    grid-auto-columns: 1;
+    row-gap: 1rem;
+}
+
+label {
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+}
+
+form div input[type="submit"],
+form div input[type="reset"] {
+    margin: auto;
+    width: 40%;
+}
+
+form div input[type="submit"] {
+    margin-left: 4.2rem;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+}
+#datos{
+    display: inline-block;
+}
+
+#datos p{
+    display: inline-block;
+    width: 40%;
+}
